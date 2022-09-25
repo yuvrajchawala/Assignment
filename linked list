@@ -1,12 +1,12 @@
 class Node:
-    def _init_(self,name,age):
+    def __init__(self,name,age):
         self.name = name; 
         self.age=age; 
         self.previous = None;  
         self.next = None;  
           
 class DoublyLinkedList:
-    def _init_(self):  
+    def __init__(self):  
         self.head = None;  
         self.tail = None;  
            
